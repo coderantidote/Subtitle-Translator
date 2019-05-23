@@ -2,7 +2,7 @@
 
 # Subtitle Translator
 
-A tool to translate subtitle files.
+A tool to translate subtitle files. [Demo](https://subtitletranslator.herokuapp.com/) 
 
 ## Getting Started
 
