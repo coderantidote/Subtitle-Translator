@@ -1,4 +1,3 @@
-# Disable access to all file types except the following
 <Files ~ >
 Options -Indexes
 </Files>
