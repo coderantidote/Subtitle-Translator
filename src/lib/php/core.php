@@ -73,9 +73,13 @@ function Translate($filename)
     if (get_file_extension($filename) == "srt") // block another extentions
         {
         if (file_exists($filename)) {
-            $line = file_get_contents($filename);
-            $line = xss_clean($line);
-            return preg_replace("/(^[\r\n]*|[\r\n]+)[\s\t]*[\r\n]+/", "\n", $line);
+           // $line = file_get_contents($filename);
+           $file_lines = file($filename);
+           foreach ($file_lines as $line) {
+               $linex .= $line;
+           }
+            $linew = xss_clean($linex);
+            return preg_replace("/(^[\r\n]*|[\r\n]+)[\s\t]*[\r\n]+/", "\n", $linew);
         } else {
             return "";
         }
