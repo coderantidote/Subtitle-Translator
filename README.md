@@ -1,3 +1,4 @@
+->![banner](src/lib/img/banner.png)<-
 # Subtitle Translator
 
 A tool to translate subtitle files.
