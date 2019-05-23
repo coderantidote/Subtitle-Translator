@@ -1,5 +1,4 @@
-
-<img src="src/lib/img/banner.png" width="250" height="250">
+<img src="src/lib/img/banner.png" width="381" height="124">
 # Subtitle Translator
 
 A tool to translate subtitle files.
