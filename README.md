@@ -1,4 +1,4 @@
-![banner](src/lib/img/banner.png){:height="250px" width="250px"}
+![banner](src/lib/img/banner.png | width=48) 
 # Subtitle Translator
 
 A tool to translate subtitle files.
