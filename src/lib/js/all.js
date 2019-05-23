@@ -23,7 +23,7 @@ function saveFile(name, type, data) {
 	a[0].click();
 	window.URL.revokeObjectURL(url);
 	a.remove();
-} // Blob based download method :) 
+} // Blob based download method :)
 
 $(".custom-file-input").on("change", function () {
 	var fileName = $(this).val().split("\\").pop();
@@ -41,7 +41,7 @@ $(document).ready(function () {
 
 $("#saveBtn").click(function () {
 	var $GetSubtitle = $('#subtitle_txt').text();
-	saveFile($('#subtitle_select').val(), "data:text/plain", $GetSubtitle);
+	saveFile($('#subtitle_select').val(), "data:text/plain", $GetSubtitle); //fix
 }); // Save As Button
 
 
