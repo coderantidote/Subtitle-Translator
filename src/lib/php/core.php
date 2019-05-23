@@ -122,9 +122,9 @@ function UploadFile($path,$files)
         if (move_uploaded_file($source, "tmp/" . $filename)) {
             
             Unzipper($path,$filename);
-            $message = "Your .zip file was uploaded and unpacked.";
+            echo "Your .zip file was uploaded and unpacked.";
         } else {
-            $message = "There was a problem with the upload. Please try again.";
+            echo "There was a problem with the upload. Please try again.";
         }
     }
 } // Function UploadFile
