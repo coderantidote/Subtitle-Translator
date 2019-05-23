@@ -25,6 +25,4 @@ Necessary security measures have been taken at the data entry exits. Security me
 git clone https://github.com/coderantidote/Subtitle-Translator.git
 ```
 
-## License
 
-This project is licensed under the GNU v3 License - see the [LICENSE](LICENSE) file for details
