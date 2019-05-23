@@ -1,4 +1,4 @@
--> <img src="src/lib/img/banner.png" width="381" height="124"> <-
+<div align="center"><img src="src/lib/img/banner.png" width="381" height="124"> </div>
 
 # Subtitle Translator
 
