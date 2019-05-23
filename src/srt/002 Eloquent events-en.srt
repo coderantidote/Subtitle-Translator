@@ -1,0 +1,162 @@
+1
+00:00:00.06 --> 00:00:02.09
+- [Narrator] Eloquent includes
+an inventing layer that
+
+2
+00:00:02.09 --> 00:00:05.06
+we can hook into to have
+logic run when something
+
+3
+00:00:05.06 --> 00:00:07.08
+happens for each model instance.
+
+4
+00:00:07.08 --> 00:00:11.00
+Let's add some logic so that
+when we create a new user,
+
+5
+00:00:11.00 --> 00:00:13.09
+it randomly assigns that user to a team.
+
+6
+00:00:13.09 --> 00:00:16.00
+To start, we'll be working in the User
+
+7
+00:00:16.00 --> 00:00:20.00
+model located in app, user.php.
+
+8
+00:00:20.00 --> 00:00:21.05
+We'll follow the same logic we did
+
+9
+00:00:21.05 --> 00:00:24.00
+before with a boot function.
+
+10
+00:00:24.00 --> 00:00:28.05
+This requires us to add a
+boot method into our class.
+
+11
+00:00:28.05 --> 00:00:36.05
+Write on line 31 protected
+static function boot()
+
+12
+00:00:36.05 --> 00:00:39.02
+As before, we're required
+to call the parent method
+
+13
+00:00:39.02 --> 00:00:45.02
+with parent::boot() on line 33.
+
+14
+00:00:45.02 --> 00:00:47.07
+In this boot function we
+can call a static method
+
+15
+00:00:47.07 --> 00:00:51.00
+named after the event we're
+going to be interacting with.
+
+16
+00:00:51.00 --> 00:00:54.05
+In this case, it's the
+creating method which is used,
+
+17
+00:00:54.05 --> 00:00:58.02
+obviously enough, when we're
+creating a new model record.
+
+18
+00:00:58.02 --> 00:01:00.01
+The full list of events is provided
+
+19
+00:01:00.01 --> 00:01:02.08
+in the Laravel documentation.
+
+20
+00:01:02.08 --> 00:01:06.06
+These methods take a closure
+with the model instance past.
+
+21
+00:01:06.06 --> 00:01:09.07
+So let's define the creating
+method on line 34 with
+
+22
+00:01:09.07 --> 00:01:17.07
+static::creating(), and then
+we'll pass in a closure with
+
+23
+00:01:17.07 --> 00:01:24.05
+function($model), and in
+this method we can set the
+
+24
+00:01:24.05 --> 00:01:27.06
+model to set our team
+ID value for the user to
+
+25
+00:01:27.06 --> 00:01:33.09
+a random value from the
+database using, on line 35,
+
+26
+00:01:33.09 --> 00:01:52.05
+$model->team_id =
+\DB::table('teams')->inRandomOrder(),
+
+27
+00:01:52.05 --> 00:02:00.06
+so we're selecting randomly
+for that table, first()->id.
+
+28
+00:02:00.06 --> 00:02:04.09
+We'll verify that this works
+by going to our application
+
+29
+00:02:04.09 --> 00:02:12.01
+and going to homestead.test/register.
+
+30
+00:02:12.01 --> 00:02:15.09
+We'll need to log out in this case.
+
+31
+00:02:15.09 --> 00:02:18.02
+Then go to register again,
+
+32
+00:02:18.02 --> 00:02:23.01
+and we'll sign up with a new account.
+
+33
+00:02:23.01 --> 00:02:27.05
+After we've registered and
+logged into our account,
+
+34
+00:02:27.05 --> 00:02:30.01
+we can check our database
+and look into the user's
+
+35
+00:02:30.01 --> 00:02:34.06
+table and verify that our
+new user has a team_id set.
+
