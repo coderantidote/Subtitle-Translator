@@ -41,7 +41,7 @@ $(document).ready(function () {
 
 $("#saveBtn").click(function () {
 	var $GetSubtitle = $('#subtitle_txt').text();
-	saveFile("<?php echo $_POST['subtitle'] ?>", "data:text/plain", $GetSubtitle);
+	saveFile($('#subtitle_select').val(), "data:text/plain", $GetSubtitle);
 }); // Save As Button
 
 
