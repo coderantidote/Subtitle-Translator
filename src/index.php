@@ -21,8 +21,8 @@
       <!-- end container -->
       <div class="container" style="padding-top:10px;padding-bottom:10px;">
          <div  class="row">
-            <div class="col-sm-6">
-               <div class="notranslate  card border-dark" >
+            <div class="col-sm-6 col-md-6">
+               <div class="notranslate  card border-dark">
                   <div class="card-header" align="center">Subtitle Settings</div>
                   <div class="card-body">
                      <div class="form-group row">
@@ -45,7 +45,7 @@
                <!-- end card -->
             </div>
             <!-- col 6  -->
-            <div class="col-sm-6">
+            <div class="col-sm-6 col-md-6">
                <div class="notranslate  card border-dark" >
                   <div class="card-header" align="center">Subtitle Folder Settings</div>
                   <div class="card-body">
@@ -70,22 +70,31 @@
       <!-- end row -->
       <div class="container">
       <div class="row">
-         <div class="col-sm">
+      <div class="col-sm-6 col-md-6">
             <div class="notranslate  card border-dark" >
-               <div class="card-header" align="center">Original Subtitle</div>
+               
+               <div class="card-header notranslate"> 
+               <div class="row">
+                     <div class="col-sm-12"><pre>Original Subtitle</pre></div>
+                   
+                  
+                  </div>
+              
+               </div>
+         
                <div class="card-body">
                   <pre id="original_txt" class="notranslate"></pre>
                   <!-- here subtitle  -->
                </div>
             </div>
-         </div>
-         <div class="col-sm">
+            </div>
+            <div class="col-sm-6 col-md-6">
             <div class="card border-dark" >
                <div class="card-header">
                   <div class="row">
-                     <div class="col-sm-7 notranslate">Translated Subtitle&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;Target Language:</div>
+                     <div class="col-sm-7 notranslate"><pre>Translated Subtitle | Target Language:</pre></div>
                      <div class="col-sm-2" >
-                        <div id="google_translate_element"  style="padding-right:0px;"></div>
+                        <div id="google_translate_element"   style="padding-right:0px;"></div>
                      </div>
                      <div class="col-sm-3 notranslate">
                         <button type="button" id="saveBtn" class="btn btn-warning btn-sm">Save</button>
@@ -133,10 +142,11 @@
          </div>
       </div>
       <script src="lib/js/jquery.min.js"></script>
+      <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
       <script src="lib/js/bootstrap-notify.min.js"></script>
       <script src="lib/js/all.js"></script>
       <script src="lib/js/bootstrap.min.js"></script>
-      <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+     
       <script src="lib/js/google.js"></script>
    </body>
 </html>
