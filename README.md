@@ -30,7 +30,7 @@ Support English
 ```
 ### Requirement
 ```
-Php 5.x and 7.x
+Php 5.x or 7.x
 ```
 ### Installing
 
