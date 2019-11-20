@@ -33,7 +33,7 @@ function delete_files($target)
 } // Delete  Files Target Dictonary
 
 function sanitize_xss($value) {
-	return htmlspecialchars(strip_tags($value));
+	return (strip_tags($value));
 }
 
 function Translate($filename)
