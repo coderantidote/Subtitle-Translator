@@ -1,6 +1,6 @@
 <div align="center"><img src="src/lib/img/banner.png" width="381" height="124"> </div>
 
-# Subtitle Translator v1.0.3
+# Subtitle(SubRip) Translator v1.0.3
 
 A tool to translate subtitle files. [Demo](https://subtitletranslator.herokuapp.com/) 
 
