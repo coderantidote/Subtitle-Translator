@@ -11,7 +11,7 @@ First of all this tool uses Google translate. Soon , I'll be adding Yandex and M
 ### Changelogs
 ```
 -----
-1.0.2
+1.0.3
 -----
 Fix Time Translate
 Fix ASCII conversion for time text

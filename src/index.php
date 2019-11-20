@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
    <head>
-      <title class="notranslate">Subtitle Translator | By Antidote</title>
+   <title class="notranslate">Subtitle Translator v1.0.3 | By Antidote</title>
       <link rel="stylesheet" href="lib/css/bootstrap.min.css">
       <link rel="stylesheet" href="lib/css/style.css">
       <link rel="shortcut icon" href="lib/img/favicon.png" type="image/png">
