@@ -1,6 +1,6 @@
 <div align="center"><img src="src/lib/img/banner.png" width="381" height="124"> </div>
 
-# Subtitle Translator v1.0.2
+# Subtitle Translator v1.0.3
 
 A tool to translate subtitle files. [Demo](https://subtitletranslator.herokuapp.com/) 
 
@@ -10,6 +10,11 @@ First of all this tool uses Google translate. Soon , I'll be adding Yandex and M
 
 ### Changelogs
 ```
+-----
+1.0.2
+-----
+Fix Time Translate
+Fix ASCII conversion for time text
 -----
 1.0.2
 -----
