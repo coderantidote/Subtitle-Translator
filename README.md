@@ -13,7 +13,7 @@ First of all this tool uses Google translate. Soon , I'll be adding Yandex and M
 -----
 1.0.3
 -----
-Fix Time Translate
+Fix Block Time Translate
 Fix ASCII conversion for time text
 -----
 1.0.2
