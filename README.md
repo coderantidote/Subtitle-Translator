@@ -2,7 +2,7 @@
 
 # Subtitle(SubRip) Translator v1.0.3
 
-A tool to translate subtitle files. [Demo](https://subtitletranslator.herokuapp.com/) 
+A tool to translate subtitle files. [Demo](http://bit.ly/34hhRZ2) 
 
 ## Getting Started
 
