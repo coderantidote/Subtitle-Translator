@@ -1,71 +1,9 @@
 1
 00:00:01,350 --> 00:00:04,800
-Copiar no es Robar.
-
+Hola!
 2
 00:00:06,000 --> 00:00:08,500
-Copiar no es Robar.
-
+La paz comienza con una sonrisa.
 3
 00:00:08,750 --> 00:00:11,500
-Robar una cosa deja a otro sin ella
-
-4
-00:00:11,800 --> 00:00:14,000
-Copiar algo es hacer uno más
-
-5
-00:00:14,250 --> 00:00:16,500
-para eso sirve copiar.
-
-6
-00:00:16,900 --> 00:00:19,000
-Copiar no es Robar.
-
-7
-00:00:19,250 --> 00:00:22,000
-Si copio lo tuyo tu también lo tienes
-
-8
-00:00:22,200 --> 00:00:24,750
-Uno para mi y otro para ti
-
-9
-00:00:24,700 --> 00:00:27,000
-Eso es lo que pueden hacer las copias.
-
-10
-00:00:27,500 --> 00:00:29,700
-Si robo tu bici
-
-11
-00:00:29,750 --> 00:00:32,000
-has de coger el bus
-
-12
-00:00:32,250 --> 00:00:34,900
-Pero si solo la copio
-
-13
-00:00:34,900 --> 00:00:37,100
-ĄHay una para cada uno!
-
-14
-00:00:38,000 --> 00:00:40,300
-hacer más de una cosa,
-
-15
-00:00:40,300 --> 00:00:43,300
-eso es lo que llamamos "COPIAR".
-
-16
-00:00:43,500 --> 00:00:45,700
-Compartir ideas con todo el mundo
-
-17
-00:00:46,000 --> 00:00:48,000
-Por eso copiar es...
-
-18
-00:00:48,000 --> 00:00:50,500
-ĄDIVERTIDO!
+Tu mejor maestro es tu último error.
