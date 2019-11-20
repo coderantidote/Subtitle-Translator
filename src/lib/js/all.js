@@ -95,6 +95,11 @@ $("#btn_subtitle_slct").click(function() {
             var data = $('#subtitle_txt').text();
 
             const FixTime = data.replace(/\d{2}:\d{2}:\d{2}(,\d{3}|.\d{2}) --> \d{2}:\d{2}:\d{2}(,\d{3}|.\d{2})/g, (match, $1) => {
+                data = data.replace(match, '<x class="notranslate" style="color:#00bc8c">' + match + '</x>');
+                console.log(match)
+            });
+            const regex = /\d{1}\n/gi;
+            const FixNum = data.replace(regex, (match, $1) => {
                 data = data.replace(match, '<x class="notranslate" style="color:#d62c1a">' + match + '</x>');
                 console.log(match)
             });
