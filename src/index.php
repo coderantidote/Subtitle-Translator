@@ -94,10 +94,10 @@
                   <div class="row">
                      <div class="col-sm-7 notranslate"><pre>Translated Subtitle | Target Language:</pre></div>
                      <div class="col-sm-2" >
-                        <div id="google_translate_element"   style="padding-right:0px;"></div>
+                        <div id="google_translate_element"   ></div>
                      </div>
-                     <div class="col-sm-3 notranslate">
-                        <button type="button" id="saveBtn" class="btn btn-warning btn-sm">Save</button>
+                     <div class="col-sm-3 notranslate" >
+                        <button type="button" id="saveBtn" style="margin-left:5px;" class="btn btn-warning btn-sm">Save</button>
                      </div>
                   </div>
                   <!-- row -->
@@ -148,5 +148,5 @@
       <script src="lib/js/bootstrap.min.js"></script>
      
       <script src="lib/js/google.js"></script>
-   </body>
+      </body>
 </html>

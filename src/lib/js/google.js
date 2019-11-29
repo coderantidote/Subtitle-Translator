@@ -17,8 +17,9 @@ function googleTranslateElementInit() {
             });
 
         } else {
-            setTimeout(changeGoogleStyles, 50);
+            setTimeout(changeGoogleStyles, 10);
         }
     }
     changeGoogleStyles();
 }
+
