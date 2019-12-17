@@ -6,7 +6,7 @@ A tool to translate subtitle files. [Demo](http://bit.ly/34hhRZ2)
 
 ## Getting Started
 
-First of all this tool uses Google translate. Soon , I'll be adding Yandex and Microsoft Translate soon.
+First of all this tool uses Google translate. Soon , I'll be adding Yandex soon.
 
 ### Changelogs
 ```
